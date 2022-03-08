@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  display: inline;
+  padding: 10px;
+}
+
+.div-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  width: 60em;
+  margin: 2em;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+}
+
+.gal-item {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 300px;
+}
